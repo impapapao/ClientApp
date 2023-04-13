@@ -34,11 +34,11 @@ Ext.define('ClientApp.view.main.Main', {
         },
         title: {
             bind: {
-                text: '{name}'
+                text: 'Vidly'
             },
             flex: 0
         },
-        iconCls: 'fa-th-list'
+        //iconCls: 'fa-th-list'
     },
 
     tabBar: {
@@ -90,7 +90,7 @@ Ext.define('ClientApp.view.main.Main', {
         }
     }, {
         title: 'Add Movie',
-        iconCls: 'fa-users',
+        //iconCls: 'fa-users',
         bind: {
             html: '{loremIpsum}'
         }

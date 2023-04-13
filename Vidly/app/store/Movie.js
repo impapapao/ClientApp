@@ -6,4 +6,14 @@ Ext.define('ClientApp.store.Movie', {
     fields: [
         'MovieTitle', 'Description', 'Genre'
     ],
+    remoteSort: true,
+    autoLoad: true,
+    proxy: {
+        type: 'ajax',
+        url: 'http://localhost1234',
+        reader: {
+            totalProperty: 'totalCount'
+        }
+    }
+
 })

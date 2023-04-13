@@ -79,9 +79,9 @@ Ext.define('ClientApp.view.main.Main', {
         title: 'Home',
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
-        items: [{
+        /*items: [{
             xtype: 'mainlist'
-        }]
+        }]*/
     }, {
         title: 'Movies',
         iconCls: 'fa-play',

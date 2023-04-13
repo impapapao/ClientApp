@@ -13,15 +13,15 @@ Ext.define('ClientApp.view.Movie.MovieGrid', {
 
     items: [{
         text: 'Movie Title',
-        width: 150,
+        flex: 1,
         dataIndex: 'MovieTitle'
     }, {
         text: 'Description',
-        width: 150,
+        flex: 1,
         dataIndex: 'Description'
     }, {
         text: 'Genre',
-        width: 150,
+        flex: 1,
         dataIndex: 'Genre',
     }]
 })

@@ -16,7 +16,8 @@ Ext.define('ClientApp.view.main.Main', {
         'ClientApp.view.main.MainController',
         'ClientApp.view.main.MainModel',
         'ClientApp.view.main.List',
-        'ClientApp.view.Movie.MovieGrid'
+        'ClientApp.view.Movie.MovieGrid',
+        'ClientApp.view.formmovie.addMovie'
     ],
 
     controller: 'main',
@@ -91,8 +92,8 @@ Ext.define('ClientApp.view.main.Main', {
     }, {
         title: 'Add Movie',
         //iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
+        items: {
+            xtype: 'form-movie'
         }
     }]
 });

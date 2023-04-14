@@ -10,7 +10,7 @@ Ext.define('ClientApp.store.Movie', {
     autoLoad: true,
     proxy: {
         type: 'ajax',
-        url: 'http://localhost1234',
+        url: 'https://localhost:5001/Movie',
         reader: {
             totalProperty: 'totalCount'
         }

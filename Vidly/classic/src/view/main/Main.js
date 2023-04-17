@@ -39,7 +39,7 @@ Ext.define('ClientApp.view.main.Main', {
             },
             flex: 0
         },
-        //iconCls: 'fa-th-list'
+        iconCls: 'fa-th-play2'
     },
 
     tabBar: {
@@ -91,7 +91,7 @@ Ext.define('ClientApp.view.main.Main', {
         }
     }, {
         title: 'Add Movie',
-        //iconCls: 'fa-users',
+        iconCls: 'fa-add',
         items: {
             xtype: 'form-movie'
         }

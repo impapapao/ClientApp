@@ -95,5 +95,7 @@ Ext.define('ClientApp.view.main.Main', {
         items: {
             xtype: 'form-movie'
         }
-    }]
+    }],
+
+    renderTo: Ext.getBody()
 });

@@ -11,17 +11,11 @@ Ext.define('ClientApp.view.Movie.MovieGrid', {
     },
 
 
-    items: [{
-        text: 'Movie Title',
-        flex: 1,
-        dataIndex: 'MovieTitle'
-    }, {
-        text: 'Description',
-        flex: 1,
-        dataIndex: 'Description'
-    }, {
-        text: 'Genre',
-        flex: 1,
-        dataIndex: 'Genre',
-    }]
+    items: [
+        {text: 'Movie Title', dataIndex: 'MovieTitle', flex: 1}, 
+        {text: 'Description', dataIndex: 'Description', flex: 1}, 
+        {text: 'Genre', dataIndex: 'Genre', flex: 1}
+    ],
+
+    renderTo: Ext.getBody()
 })

@@ -16,7 +16,7 @@ Ext.define('ClientApp.store.Movie', {
             type: 'json',
             rootProperty: 'items'
         },
-        url: 'http://localhost:5001/api/Movie',
+        url: 'http://localhost:5000/api/Movies',
     }
 
 })
